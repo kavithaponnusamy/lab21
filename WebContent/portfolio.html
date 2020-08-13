@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<!-- link to Bootstrap libraries -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+
+<!-- our stylesheet can override Bootstrap rules -->
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="fixed-header" id="myHeader">
+		<h1>Kavitha's Page</h1>
+	</div>
+	<ul class="navbar-nav" id="list">
+		<li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+	</ul>
+	<h4>List of Projects</h4>
+	<ol>
+		<li><a
+			href="C:\Users\Kavitha\eclipse-workspace\lab-14-kavithaponnusamy">Roshambo
+				Project</a></li>
+		<li><a href="C:\Users\Kavitha\eclipse-workspace\StringCalculator">String
+				Calculator</a></li>
+		<li><a href="C:\Users\Kavitha\eclipse-workspace\lab11">Movies
+				App</a></li>
+	</ol>
+	<script>
+		window.onscroll = function() {
+			myFunction()
+		};
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+		function myFunction() {
+			if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			} else {
+				header.classList.remove("sticky");
+			}
+		}
+	</script>
+
+	<div class="footer">
+		<p>@ 2020 Kavitha Ponnusamy | All Rights Reserved.</p>
+	</div>
+
+</body>
+</html>

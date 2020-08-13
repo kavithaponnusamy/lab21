@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/*
+     This is a CSS comment
+*/
+
+h1{
+	font-size: 40px;
+  color: #ffff00153254134;
+  text-align: center;
+}
+h2{
+	font-size: 40px;
+  color: #ff0000255254154;
+  text-align: center;
+}
+h4{
+	font-size: 25px;
+  color: rgb(128,0,0);
+  text-align: left;
+}
+	
+}
+ 
+body {
+		font-family:"Lucida Console", Monaco, monospace;
+}
+.fixed-header{
+	padding:10px 16px;
+	background:#99ff66;
+	color:#ff9966;
+}
+.container{
+	padding: 16px;
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+.sticky+.container{
+	padding-top: 102px
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: DarkSalmon;
+	color:white;
+	text-align: center;
+}
+
+
+.box {
+	
+	border: 2px dotted black;
+	width: 100px;
+	height: 100px;
+}
+
+.box1 {
+	
+	background-color: #ff50a1;
+}
+
+
+.box2 {
+	
+	background-color: #3effb4;
+}
+
+.box3 {
+	
+	background-color: #ffe787;
+}
+
+#list {
+	list-style-type: none;
+}
